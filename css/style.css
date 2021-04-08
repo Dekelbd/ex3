@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header,
+main,
+nav,
+footer,
+section {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+header{
+    height: 192px;
+    background-color: darkgray;
+}
+
+#logo{
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*///////////////////////////////////////*/
+
+#layout1 nav{
+    background-color: black;
+}
+
+#layout1 nav ul{
+    height: 62px;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+#layout1 nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#layout1 #l2{
+    padding-left: 83px;
+}
+
+#layout1 #l3{
+    padding-left: 165px;
+}
+
+#layout1 .selected{
+    width: 233px;
+    height: 40px;
+    background-color: steelblue;
+    margin-left: 39px;
+}
+
+#layout1 .wrapper{
+    width: 1000px;
+    height: 696px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#layout1 aside{
+    width: 244px;
+    height: 696px;
+    background-color: gainsboro;
+}
+
+#layout1 aside div{
+    width: 148px;
+    height: 59px;
+    margin-left: 81px;
+    margin-top: 200px;
+    background-color: crimson;
+
+}
+
+#layout1 main{
+    width: 756px;
+    height: 696px;
+}
+
+#layout1 footer{
+    height: 50px;
+    background-color: darkgray;
+}
+
+#layout1 main section div{
+        width: 100px;
+        height: 100px;
+        background-color: crimson;
+}
+
+#layout1 .main_rec{
+    width: 693px;
+    height: 648px;
+    margin-left: 39px;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#layout1 .top_left{
+    width: 235px;
+    height: 235px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#layout1 .bottom_right{
+    width: 235px;
+    height: 235px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-self: flex-end;
+}
+
+
+
+/*//////////////////////////////////////////*/
+
+
+#layout2 nav{
+    width: 146px;
+    height: 804px;
+    /*height: 758px;*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    background-color: black;
+    float: left;
+}
+
+#layout2 nav ul{
+    width: 146px;
+    /*height: 804px;*/
+}
+
+#layout2 nav ul li{
+    width: 146px;
+    height: 59px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#layout2 nav ul li a{
+    margin-left: 5px;
+}
+
+#layout2 .selected{
+    width: 146px;
+    height: 58px;
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+}
+
+#layout2 .wrapper{
+    width: 1000px;
+    /*height: 804px;*/
+    margin: 0 auto;
+    /*display: flex;*/
+
+}
+
+#layout2 aside{
+    width: 257px;
+    height: 804px;
+    background-color: lightgrey;
+    float: left;
+    position: relative;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*align-items: flex-end;*/
+
+}
+
+#layout2 .four_rec{
+    width: 235px;
+    height: 235px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    bottom: 59px;
+    position: absolute;
+    margin-left: 11px;
+}
+
+#layout2 .four_rec div{
+    width: 100px;
+    height: 100px;
+    border: 0;
+    background-color: darkgreen;
+}
+
+#layout2 main{
+    width: 597px;
+    height: 1000px;
+    display: flex;
+    /*margin-top: 22px;*/
+    /*margin-left: 22px;*/
+    float: left;
+
+}
+
+#layout2 .all_shapes{
+    width: 556px;
+    /*height: 760px;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    align-content: space-between;
+    margin-top: 22px;
+    margin-left: 22px;
+
+}
+
+#layout2 .all_shapes div:nth-child(1) {
+    width: 270px;
+    height: 324px;
+    background-color: darkgreen;
+    margin-bottom: 24px;
+}
+
+#layout2 .all_shapes div:nth-child(2) {
+    width: 270px;
+    height: 412px;
+    background-color: darkgreen;
+    /*margin-top: 24px;*/
+}
+
+#layout2 .all_shapes div:nth-child(3) {
+    width: 270px;
+    height: 254px;
+    background-color: darkgreen;
+    /*margin-left: 16px;*/
+    margin-bottom: 24px;
+}
+
+#layout2 .all_shapes div:nth-child(4) {
+    width: 270px;
+    height: 364px;
+    background-color: darkgreen;
+    /*margin-top: 24px;*/
+    /*margin-left: 16px;*/
+}
+
+
+#layout2 footer{
+    height: 50px;
+    background-color: darkgray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
